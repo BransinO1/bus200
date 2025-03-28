@@ -1,0 +1,112 @@
+body {
+    background-image: url('../images/guild-hall.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+/* Unified Container */
+.container {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 25px;
+    border: 3px solid #b2965e;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #b2965e;
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #f5e6c8;
+}
+
+/* Navigation */
+nav {
+    background-color: #3e2723;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #f5e6c8;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #9c6b43;
+    border-radius: 5px;
+}
+
+/* Shop Categories */
+.shop-categories h2 {
+    color: #f39c12;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #b2965e;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 220px;
+}
+
+.category-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.category-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.category-item h3 {
+    font-size: 1.4rem;
+    color: #f5e6c8;
+}
+
+/* Footer */
+footer {
+    background: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
