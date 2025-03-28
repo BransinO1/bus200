@@ -1,0 +1,111 @@
+/* assets/css/styles.css */
+
+body {
+    background-image: url('../images/guild-hall.jpg'); /* Background image for all pages */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+/* Unified Container */
+.container {
+    background: rgba(0, 0, 0, 0.75); /* Dark background for container */
+    color: white;
+    padding: 25px;
+    border: 3px solid #b2965e; /* Gold border for emphasis */
+    border-radius: 10px;
+    max-width: 1000px; /* Ensure consistency across pages */
+    margin: auto;
+}
+
+/* Header Style */
+header {
+    background-color: #b2965e; /* Tan-brownish header background */
+    background-image: url('../images/banner.jpg'); /* Optional: Use banner image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #f5e6c8; /* Light readable text */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #3e2723; /* Dark background for navigation */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #f5e6c8;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #9c6b43;
+    border-radius: 5px;
+}
+
+/* Footer Style */
+footer {
+    background: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* General Heading and Paragraph Styles */
+h2 {
+    color: #f39c12; /* Gold text for headings */
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+p {
+    color: #ecf0f1; /* Light text color for readability */
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+/* Additional Container Spacing */
+.container p {
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Style for the specific "Wages" link */
+.link {
+    color: white; /* White text color */
+    background-color: green; /* Green background by default */
+    padding: 0 5px; /* Adds padding around the link */
+    text-decoration: none; /* Removes underline by default */
+}
+
+.link:hover {
+    color: white; /* Keeps the text color white on hover */
+    background-color: darkgreen; /* Darker green background on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+.link:active {
+    color: white; /* Keeps the text color white when clicked */
+    background-color: darkgreen; /* Darker green background when clicked */
+    text-decoration: none; /* No underline when clicked */
+}
+
